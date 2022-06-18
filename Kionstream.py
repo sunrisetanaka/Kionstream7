@@ -220,7 +220,7 @@ def now_df_scrap(prec,block):
         monthdict["日照時間"].append(i)
 
     #確認
-    while len(monthdict["平均気温"])!=len(monthdict["日"]) or len(monthdict["最高気温"])!=len(monthdict["日"]) or len(monthdict["最低気温"])!=len(monthdict["日"]) or len(monthdict["日照時間"])!=len(monthdict["日"])::
+    while len(monthdict["平均気温"])!=len(monthdict["日"]) or len(monthdict["最高気温"])!=len(monthdict["日"]) or len(monthdict["最低気温"])!=len(monthdict["日"]) or len(monthdict["日照時間"])!=len(monthdict["日"]):
         for i in param:
             monthdict[i].pop()
     #サーバー負荷軽減
