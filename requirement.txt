@@ -1,6 +1,6 @@
 pyopenjtalk
 requests
-beautifulsoup4
+beautifulsoup4==4.9.0
 numpy
 pandas
 matplotlib==3.5.2
